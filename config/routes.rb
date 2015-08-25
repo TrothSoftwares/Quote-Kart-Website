@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
+
+
   devise_for :users
   root             'quotes#home'
-  get 'dashboard'    => 'static_pages#dashboard'
+  
+  get 'dealer' => 'dashboard#dealer'
+  get 'client' =>'dashboard#client'
+  get 'admin' =>'dashboard#admin'
 end

@@ -1,4 +1,5 @@
 class QuotesController < ApplicationController
+
   def home
   end
 
