@@ -30,8 +30,8 @@
 						</div>
 						
 						<p>
-							<a class="btn btn-primary btn-large" href="#">Ask For Quote</a>
-						</p>
+						<%= link_to "Ask For Quote",   client_path , html_options = {class: "btn btn-primary btn-large"}%>
+ 						</p>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -97,7 +97,9 @@
 						</div>
 						
 						<p>
-							<a class="btn btn-primary btn-large" href="#">Get Quotes</a>
+							<p>
+						<%= link_to "Get Quotes",   dealer_path , html_options = {class: "btn btn-primary btn-large"}%>
+ 						</p>
 						</p>
 					</div>
 				</div>
